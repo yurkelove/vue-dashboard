@@ -334,6 +334,7 @@ $Oswald: "Oswald", sans-serif;
       }
       @include deviceRes($mobile) {
         padding-top:35px;
+        justify-content:center;
       }
       .items-profiles-single-box {
         margin-bottom: 25px;
