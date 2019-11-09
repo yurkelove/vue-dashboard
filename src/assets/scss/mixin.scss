@@ -1,0 +1,8 @@
+$tablet: 768px;
+$mobile: 480px;
+
+@mixin deviceRes($width) {
+    @media only screen and (max-width: $width) {
+      @content
+    }
+  }
