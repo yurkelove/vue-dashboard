@@ -202,6 +202,9 @@ $Oswald: "Oswald", sans-serif;
 .dashboard-content {
   width: 1200px;
   background: #eff7ed;
+  @include deviceRes($desktop) {
+    width: 100%;
+  }
   @include deviceRes($tablet) {
     width: 100%;
   }
@@ -243,7 +246,7 @@ $Oswald: "Oswald", sans-serif;
   &__main {
     padding-top: 72px;
     padding-bottom: 127px;
-    padding-left: 125px;
+    padding-left:125px;
     padding-right: 125px;
 
     @include deviceRes($tablet) {

@@ -127,6 +127,9 @@ html {
     display: flex;
     flex-direction: column;
   }
+  @include deviceRes($desktop) {
+    width: 100%;
+  }
 }
 
 .app-container {
