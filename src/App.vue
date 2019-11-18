@@ -131,7 +131,7 @@ html {
 
 .app-container {
   width: 1200px;
-  height: 100vh;
+  height: auto;
   display: flex;
   @include deviceRes($tablet) {
     width: 100%;
@@ -149,7 +149,7 @@ html {
 $Roboto: "Roboto", sans-serif;
 
 .dashboard-sidebar {
-  height: 100vh;
+  height: 100%;
   width: 240px;
   background: linear-gradient(180deg, #27b983 -18.15%, #91e857 266.75%);
   box-shadow: inset -1px 0px 0px rgba(28, 175, 94, 0.1);
